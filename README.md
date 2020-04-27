@@ -1,22 +1,26 @@
 # API-mot-backend
-övningsuppgift 1, dokumentation av API
-｜
+> övningsuppgift 1, dokumentation av API
 
-## path:
-## method: 
-## bodydata: 
-## what method does: 
+## __general info:__
+> | jq structures answere with jQuery
 
-| jq structure answere
+>#### _path:_
+>#### _method:_
+>#### _bodydata:_
+>#### _what method does:_
 
 
-## path: http://api.softhouse.rocks/users/1
+# Server: http://api.softhouse.rocks
+
+```
+## path: /users/1
 
 ## method: 
 GET
 
 ## bodydata: 
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+ 
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   253  100   253    0     0    627      0 --:--:-- --:--:-- --:--:--   627
 {
@@ -40,7 +44,7 @@ GET
 
 ## what method does:
 fetch the first user object 
-
+```
 __________________________________________________________________________
 
 ## path: http://api.softhouse.rocks/posts
