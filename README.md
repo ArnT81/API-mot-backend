@@ -13,12 +13,10 @@
 # Server: http://api.softhouse.rocks
 
 
- ## path: ##  #### /users/1 ####
-
-## method: ## GET
-
-## bodydata: 
- 
+### path: /users/1
+### method: GET
+### bodydata: 
+```
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   253  100   253    0     0    627      0 --:--:-- --:--:-- --:--:--   627
@@ -40,10 +38,10 @@
   "email": "Sincere@april.biz",
   "__v": 0
 }
-
-## what method does:
-fetch the first user object 
 ```
+### what method does:
+fetch the first user object 
+
 
 ## path: http://api.softhouse.rocks/posts
 
