@@ -1,8 +1,8 @@
 # API-mot-backend
-> övningsuppgift 1, dokumentation av API
+övningsuppgift 1, dokumentation av API
 
 ## __general info:__
-> | jq structures answere with jQuery
+| jq structures answere with jQuery
 
 >#### _path:_
 >#### _method:_
@@ -12,11 +12,10 @@
 
 # Server: http://api.softhouse.rocks
 
-```
-## path: /users/1
 
-## method: 
-GET
+ ## path: ##  #### /users/1 ####
+
+## method: ## GET
 
 ## bodydata: 
  
@@ -45,7 +44,6 @@ GET
 ## what method does:
 fetch the first user object 
 ```
-__________________________________________________________________________
 
 ## path: http://api.softhouse.rocks/posts
 
