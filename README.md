@@ -5,6 +5,7 @@
 | jq structures answere with jQuery
 
 >#### _path:_
+
 >#### _method:_
 >#### _bodydata:_
 >#### _what method does:_
@@ -12,6 +13,7 @@
 
 # Server: http://api.softhouse.rocks
 
+___
 
 ### path: /users/1
 ### method: GET
@@ -43,11 +45,11 @@
 
 ___
 
-## path: /posts
+### path: /posts
 
-## method: POST 
+### method: POST 
 
-## bodydata:
+### bodydata:
 ```
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -63,50 +65,50 @@ Via: 1.1 google
 {"_id":"5e9eb5c609cee0002106f319","body":"Fresh as morning dew","title":"Hi, World","userId":1,"id":825,"__v":0}
 ```
 
-## what method does: Adds two new json strings, (Hi, World) in the title and (Fresh as morning dew) in the body segment
+### what method does: Adds two new json strings, (Hi, World) in the title and (Fresh as morning dew) in the body segment
 
 ___
 
-## path: /posts/13
+### path: /posts/13
 
-## method: DELETE
+### method: DELETE
 
-## bodydata: 
+### bodydata: 
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100     2  100     2    0     0      9      0 --:--:-- --:--:-- --:--:--     9OK
 
-## what method does: Deletes post 13
+### what method does: Deletes post 13
 ___
 
-## path: http://api.softhouse.rocks/posts/3
+### path: http://api.softhouse.rocks/posts/3
 
-## method: 
+### method: 
 PUT
 
-## bodydata: 
+### bodydata: 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   159  100   124  100    35    855    241 --:--:-- --:--:-- --:--:--  1104{"expose":true,"statusCode":400,"status":400,"body":"{\n  \"name\": \"Me Myself and I\", ...}","type":"entity.parse.failed"}
 
-## what method does: 
+### what method does: 
 The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
 __________________________________________________________________________
-## path: curl -X PATCH http://api.softhouse.rocks/posts/12 -H "Content-Type:application/json" -d  '{
+### path: curl -X PATCH http://api.softhouse.rocks/posts/12 -H "Content-Type:application/json" -d  '{
   "name": "some other name"}'
 
-## method: 
+### method: 
 PATCH
 
-## bodydata: 
+### bodydata: 
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    44  100    14  100    30      2      4  0:00:07  0:00:06  0:00:01     9userId missing
 
-## what method does: 
+### what method does: 
 Update a Resource
 __________________________________________________________________________
-## path:
-## method: 
-## bodydata: 
-## what method does: 
+### path:
+### method: 
+### bodydata: 
+### what method does: 
