@@ -39,16 +39,16 @@
   "__v": 0
 }
 ```
-### what method does:
-fetch the first user object 
+### what method does: Fetch the first user object 
 
+___
 
-## path: http://api.softhouse.rocks/posts
+## path: /posts
 
-## method: 
-POST 
+## method: POST 
 
-## bodydata: 
+## bodydata:
+```
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   179  100   112  100    67    370    221 --:--:-- --:--:-- --:--:--   592HTTP/1.1 201 Created
@@ -61,26 +61,23 @@ Date: Tue, 21 Apr 2020 08:58:46 GMT
 Via: 1.1 google
 
 {"_id":"5e9eb5c609cee0002106f319","body":"Fresh as morning dew","title":"Hi, World","userId":1,"id":825,"__v":0}
+```
 
+## what method does: Adds two new json strings, (Hi, World) in the title and (Fresh as morning dew) in the body segment
 
-## what method does: 
-Adds two new json strings, (Hi, World) in the title and (Fresh as morning dew) in the body segment
+___
 
-__________________________________________________________________________
+## path: /posts/13
 
-## path: http://api.softhouse.rocks/posts/13
-
-## method: 
-DELETE
+## method: DELETE
 
 ## bodydata: 
  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100     2  100     2    0     0      9      0 --:--:-- --:--:-- --:--:--     9OK
 
-## what method does: 
-deletes post 13
-__________________________________________________________________________
+## what method does: Deletes post 13
+___
 
 ## path: http://api.softhouse.rocks/posts/3
 
