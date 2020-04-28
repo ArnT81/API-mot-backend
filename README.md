@@ -107,16 +107,27 @@ ___
 
 ___
 
-### path: curl -X PATCH http://api.softhouse.rocks/posts/12 -H "Content-Type:application/json" -d  '{
+### path: curl -X PATCH http://api.softhouse.rocks/users/12 -H "Content-Type:application/json" -d  '{
   "name": "some other name"}'
 
 ### method: 
 PATCH
 
 ### bodydata: 
+  curl -X PATCH http://api.softhouse.rocks/users/12 -H "Content-Type:application/json" -d  '{
+  "name": "some other name"}'
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100    44  100    14  100    30      2      4  0:00:07  0:00:06  0:00:01     9userId missing
+100   179  100   149  100    30   2013    405 --:--:-- --:--:-- --:--:--  2452<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot PATCH /users/12</pre>
+</body>
+</html>
 
 ### what method does: Update a Resource
 
