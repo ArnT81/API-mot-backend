@@ -89,15 +89,18 @@ ___
 ___
 
 
-### path: /posts/3
+### path: curl -X PUT -H "Content-Type: application/json" -d '{"name":"mkyong","email":"abc@gmail.com"}' http://api.softhouse.rocks/users/12
 
 ### method: PUT
 
 ### bodydata:
 ```
+ $ curl -X PUT -H "Content-Type: application/json" -d '{"name":"mkyong","email":"abc@gmail.com"}' http://api.softhouse.rocks/users/12 | jq
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100   159  100   124  100    35    855    241 --:--:-- --:--:-- --:--:--  1104{"expose":true,"statusCode":400,"status":400,"body":"{\n  \"name\": \"Me Myself and I\", ...}","type":"entity.parse.failed"}
+100    43  100     2  100    41     26    539 --:--:-- --:--:-- --:--:--   573
+{}
+
 ```
 
 ### what method does: The PUT method requests that the enclosed entity be stored under the supplied URI. If the URI refers to an already existing resource, it is modified; if the URI does not point to an existing resource, then the server can create the resource with that URI.
