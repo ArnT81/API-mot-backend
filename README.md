@@ -110,8 +110,7 @@ ___
 ### path: curl -X PATCH http://api.softhouse.rocks/users/12 -H "Content-Type:application/json" -d  '{
   "name": "some other name"}'
 
-### method: 
-PATCH
+### method: PATCH
 
 ### bodydata:
 ```
