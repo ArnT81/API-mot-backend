@@ -114,15 +114,13 @@ ___
 PATCH
 
 ### bodydata:
-´´´
-
+```
 curl -X PATCH http://api.softhouse.rocks/users/12 -H "Content-Type:application/json" -d  '{
 "name": "some other name"}'
 % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100    44  100    14  100    30      2      4  0:00:07  0:00:06  0:00:01     9userId missing
-
-´´´
+```
 
 ### what method does: Update a Resource
 
